@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <h1 class="HeadTxt">Form Page</h1>
+
+    <form>
+        <div>
+            <input type="text" required placeholder="სახელი" />
+            <input type="email" required placeholder="Email" />
+            <input type="password" required placeholder="პაროლი" />
+        </div>
+        <div>
+            <h2>სქესი</h2>
+            <label>
+                მამრობითი
+                <input type="radio" placeholder="radio" name="სქესი" required />
+            </label>
+            <label>
+                მდედრობითი
+                <input type="radio" placeholder="radio" name="სქესი" required />
+            </label>
+
+            <h2>შინაური ცხოველი</h2>
+            <label>
+                ძაღლი
+                <input type="checkbox" placeholder="checkbox" />
+            </label>
+            <label>
+                კატა
+                <input type="checkbox" placeholder="checkbox" />
+            </label>
+            <label>
+                თუთიყუში
+                <input type="checkbox" placeholder="checkbox" />
+            </label>
+            <label>
+                დაბადების თარიღი
+                <input type="date" required placeholder="date" />
+            </label>
+            <label>
+                პროფილის სურათი
+                <input type="file" />
+            </label>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="button">Button</button>
+
+            <a href="./index.html">Main Page</a>
+        </div>
+    </form>
+</body>
+
+</html>
